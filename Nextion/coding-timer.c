@@ -2,23 +2,23 @@
 // terus balik lagi ke 0
 if(indexGAM.val<11)
 {
-    indexGAM.val=indexGAM.val+1
+    indeksGAM.val=indeksGAM.val+1
 }
 else 
 {
-    indexGAM.val=0
+    indeksGAM.val=0
 }
 
 // Sesuaikan dengan index gambarnya
-if(indexGAM.val==0) 
+if(indeksGAM.val==0) 
 {
     picGERAK.pic=1
 }
-if(indexGAM.val==1) 
+if(indeksGAM.val==1) 
 {
     picGERAK.pic=2
 }
-if(indexGAM.val==2) 
+if(indeksGAM.val==2) 
 {
     picGERAK.pic=3
 }
