@@ -2,7 +2,7 @@
 Hello guys, disini jadi repository buat ngebantu tugas akhir kalian, bantu ya, bukan di jokiin -_-
 
 ## Ini list tema tugas akhir kalian ##
-* [ ] Nextion LCD (Isinya ada coding juga)
+* [x] Nextion LCD (Isinya ada coding juga)
 * [ ] Coding Arduino (Coding juga nih)
 * [ ] Skematik rangkaian (pake `Kicad` yang pasti).
 
