@@ -1,6 +1,6 @@
 // Ini buat menghitung index gambar dari 0 sampai 11
 // terus balik lagi ke 0
-if(indexGAM.val<11)
+if(indeksGAM.val<11)
 {
     indeksGAM.val=indeksGAM.val+1
 }
