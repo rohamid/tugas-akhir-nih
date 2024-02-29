@@ -10,3 +10,4 @@ Hello guys, disini jadi repository buat ngebantu tugas akhir kalian, bantu ya, b
 * [Nextion](./Nextion/) Ini buat EKA 
 * [Arduino](./Arduino/) Ini buat Selvi
 * [Skematik](./Kicad/) Ini juga buat Selvi dan yg lain
+* [Dokumentasi](./doc/) Ini bisa buat refferensi atau dokumentasi, terserah
