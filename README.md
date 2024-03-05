@@ -1,4 +1,7 @@
 # JOKI TUGAS AKHIR #
+
+# WOY, MANA UPDATE SENSOR NYA? #
+
 Hello guys, disini jadi repository buat ngebantu tugas akhir kalian, bantu ya, bukan di jokiin -_-
 
 ## Ini list tema tugas akhir kalian ##
