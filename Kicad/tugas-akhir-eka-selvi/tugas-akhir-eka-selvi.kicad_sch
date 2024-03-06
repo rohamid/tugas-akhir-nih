@@ -544,6 +544,12 @@
 		(uuid "1d9351b7-6c1f-4e09-ae23-2ea9c6536267")
 	)
 	(junction
+		(at 260.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ca63726-7eae-464d-821f-3043fdb60b49")
+	)
+	(junction
 		(at 36.83 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -560,6 +566,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "537d843e-0ff4-4035-8c60-2ae140d29a9b")
+	)
+	(junction
+		(at 246.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d41e9691-ec3d-4572-b013-04eac9218ba8")
 	)
 	(junction
 		(at 246.38 55.88)
@@ -587,6 +599,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 127) (xy 246.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0033021e-f441-452d-bfc8-cad8920a3a46")
+	)
+	(wire
+		(pts
+			(xy 248.92 116.84) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afd45f9-b3ca-4aa5-806e-4612f0bf6f34")
+	)
+	(wire
+		(pts
 			(xy 256.54 55.88) (xy 260.35 55.88)
 		)
 		(stroke
@@ -604,6 +636,16 @@
 			(type default)
 		)
 		(uuid "13ab9657-1afa-4547-be51-c7f445002775")
+	)
+	(wire
+		(pts
+			(xy 256.54 116.84) (xy 260.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fbb175-89ab-4b50-bcce-d8e99df8cdca")
 	)
 	(wire
 		(pts
@@ -644,6 +686,16 @@
 			(type default)
 		)
 		(uuid "33978632-282d-4aa9-acfc-770788931497")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 246.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359bd535-3ace-48f1-b062-3f36f0f16186")
 	)
 	(wire
 		(pts
@@ -767,6 +819,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 116.84) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877677fa-4035-487b-86b1-fc15cbfdde91")
+	)
+	(wire
+		(pts
 			(xy 260.35 31.75) (xy 260.35 35.56)
 		)
 		(stroke
@@ -774,6 +836,16 @@
 			(type default)
 		)
 		(uuid "93202a05-36a4-4fe7-a4aa-01f9afd17f43")
+	)
+	(wire
+		(pts
+			(xy 232.41 116.84) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4509708-5aef-47c3-88bb-a80618cff035")
 	)
 	(wire
 		(pts
@@ -920,6 +992,17 @@
 			(justify left bottom)
 		)
 		(uuid "1294bcce-24e9-455b-9cb6-3c14a081d490")
+	)
+	(label "A4"
+		(at 232.41 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45a93dac-d76f-4b32-8c21-169dd291adef")
 	)
 	(label "A0"
 		(at 232.41 35.56 0)
@@ -1114,7 +1197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 35.052 55.88 90)
 			(effects
 				(font
@@ -1223,6 +1306,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Optical:A9060")
+		(at 252.73 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3014fd07-083f-48ce-a8ee-2da303bae66c")
+		(property "Reference" "R5"
+			(at 252.73 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LDR"
+			(at 252.73 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
+			(at 252.73 121.285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A500/A90xxxx%23PE.pdf"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "light dependent resistor"
+			(at 252.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58628cb8-cd02-42e5-8be9-715f0645559d")
+		)
+		(pin "1"
+			(uuid "b930c86d-b85f-4150-9029-e5c0268eefa5")
+		)
+		(instances
+			(project "tugas-akhir-eka-selvi"
+				(path "/a7f2c55c-992a-456b-b57d-02001cd65dee"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3867525c-7209-4600-8402-4a020ac63503")
+		(property "Reference" "#PWR03"
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451232a8-6de8-4d1e-be21-50a9591a47d7")
+		)
+		(instances
+			(project "tugas-akhir-eka-selvi"
+				(path "/a7f2c55c-992a-456b-b57d-02001cd65dee"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 246.38 101.6 0)
 		(unit 1)
@@ -1250,7 +1467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.602 101.6 90)
 			(effects
 				(font
@@ -1320,7 +1537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical"
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
 			(at 41.275 44.45 90)
 			(effects
 				(font
@@ -1456,7 +1673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.602 60.96 90)
 			(effects
 				(font
@@ -1526,7 +1743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.602 81.28 90)
 			(effects
 				(font
@@ -1596,7 +1813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.602 40.64 90)
 			(effects
 				(font
@@ -1664,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical"
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
 			(at 252.73 80.645 90)
 			(effects
 				(font
@@ -1732,7 +1949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical"
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
 			(at 252.73 100.965 90)
 			(effects
 				(font
@@ -1932,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical"
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
 			(at 252.73 40.005 90)
 			(effects
 				(font
@@ -1975,6 +2192,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 246.38 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f090b559-d934-4e80-bf0d-ceccc130b5b1")
+		(property "Reference" "R4"
+			(at 248.92 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 248.92 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 244.602 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0199c09-3e5c-499b-9854-ada8722a88c7")
+		)
+		(pin "1"
+			(uuid "3c64e0dd-c25c-4199-bc98-a8fd82937ada")
+		)
+		(instances
+			(project "tugas-akhir-eka-selvi"
+				(path "/a7f2c55c-992a-456b-b57d-02001cd65dee"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Optical:A9060")
 		(at 252.73 55.88 270)
 		(unit 1)
@@ -2000,7 +2287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical"
+		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
 			(at 252.73 60.325 90)
 			(effects
 				(font
