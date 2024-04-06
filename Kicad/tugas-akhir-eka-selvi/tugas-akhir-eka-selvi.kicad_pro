@@ -178,6 +178,7 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -579,7 +580,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
