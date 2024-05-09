@@ -62,7 +62,7 @@ void loop() {
 /* @fn: lpf_init
  * @brief: Inisialisasi low pass filter. 
  * @param: lpf 				: pointer ke struct lpf_config_t
- * @param: filter_factor 	: faktor filterisasi (sesuaikan perubahan nilai setelah difilter.) 
+ * @param: filter_factor 	: faktor filterisasi (sesuaikan faktor dengan perubahan nilai setelah difilter.) 
  * @return: None
  * @note:
  */
@@ -75,7 +75,7 @@ void lpf_init(lpf_config_t *lpf, float filter_factor) {
  * @brief: Filter sinyal input dan dapatkan sinyal terfilter dari return. 
  * @param: lpf 		: pointer ke struct lpf_config_t
  * @param: input 	: sinyal yang akan di filter
- * @return: None
+ * @return: nilai setelah di filter
  * @note:
  */
 float lpf_get_filter(lpf_config_t *lpf, float input) {
